@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js打开exe</title>
+</head>
+
+<body>
+  <script src="./protocolcheck.js"></script>
+  <script>
+    let href = 'ydkdxy:';
+    window.protocolCheck(
+      hrefSrc,
+      function () {
+        // 错误
+        alert("协议未注册,请先安装注册协议！");
+      },
+      function () {
+        // 成功
+
+      }
+    );
+
+    /**
+     * todo vue的写法
+     * import protocolCheck from "../../public/hj/js/protocolcheck.js";
+     * protocolCheck(
+          hrefSrc,
+          function () {
+            // 错误
+            alert("协议未注册,请先安装注册协议！");
+          },
+          function () {
+            // 成功
+
+          }
+        );
+     * */
+  </script>
+</body>
+
+</html>

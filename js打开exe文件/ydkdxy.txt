@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\ydkdxy]
+@="cdhj Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\cdhj\DefaultIcon]
+@="G:\\teamviewer\\TeamViewer.exe"
+[HKEY_CLASSES_ROOT\ydkdxy\shell]
+@=""
+[HKEY_CLASSES_ROOT\ydkdxy\shell\open]
+@=""
+[HKEY_CLASSES_ROOT\ydkdxy\shell\open\command]
+@="\"G:\\teamviewer\\TeamViewer.exe\" "
